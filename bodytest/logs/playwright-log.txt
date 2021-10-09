@@ -1,0 +1,46 @@
+{"level":30,"time":"2021-09-28T00:40:57.929Z","pid":19943,"hostname":"pop-os","msg":"Listening on 37257"}
+{"level":30,"time":"2021-09-28T00:40:58.405Z","pid":19943,"hostname":"pop-os","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-09-28T00:40:58.420Z","pid":19943,"hostname":"pop-os","msg":"Changed active context"}
+{"level":30,"time":"2021-09-28T00:40:58.737Z","pid":19943,"hostname":"pop-os","msg":"Video path: undefined"}
+{"level":30,"time":"2021-09-28T00:40:58.737Z","pid":19943,"hostname":"pop-os","msg":"Changed active page"}
+{"level":30,"time":"2021-09-28T00:41:01.070Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=input[name=email]"}
+{"level":30,"time":"2021-09-28T00:41:01.128Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=input[name=password]"}
+{"level":30,"time":"2021-09-28T00:41:01.156Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: text=Entrar"}
+{"level":30,"time":"2021-09-28T00:41:01.223Z","pid":19943,"hostname":"pop-os","msg":"Strict mode is: true"}
+{"level":30,"time":"2021-09-28T00:41:02.268Z","pid":19943,"hostname":"pop-os","msg":"Retrieved text for element css=aside strong containing Administrador"}
+{"level":30,"time":"2021-09-28T00:41:02.387Z","pid":19943,"hostname":"pop-os","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
+{"level":30,"time":"2021-09-28T00:41:02.951Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=input[name=email]"}
+{"level":30,"time":"2021-09-28T00:41:02.992Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=input[name=password]"}
+{"level":30,"time":"2021-09-28T00:41:03.016Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: text=Entrar"}
+{"level":30,"time":"2021-09-28T00:41:03.083Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=.Toastify__toast-body >> text=Usuário e/ou senha inválidos."}
+{"level":30,"time":"2021-09-28T00:41:05.951Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=input[name=email]"}
+{"level":30,"time":"2021-09-28T00:41:05.994Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=input[name=password]"}
+{"level":30,"time":"2021-09-28T00:41:06.018Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: text=Entrar"}
+{"level":30,"time":"2021-09-28T00:41:06.107Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=.Toastify__toast-body >> text=Usuário e/ou senha inválidos."}
+{"level":30,"time":"2021-09-28T00:41:09.157Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=input[name=email]"}
+{"level":30,"time":"2021-09-28T00:41:09.205Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=input[name=password]"}
+{"level":30,"time":"2021-09-28T00:41:09.237Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: text=Entrar"}
+{"level":30,"time":"2021-09-28T00:41:09.306Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=form span >> text=Informe um e-mail válido"}
+{"level":30,"time":"2021-09-28T00:41:09.334Z","pid":19943,"hostname":"pop-os","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
+{"level":30,"time":"2021-09-28T00:41:09.899Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=input[name=email]"}
+{"level":30,"time":"2021-09-28T00:41:09.941Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=input[name=password]"}
+{"level":30,"time":"2021-09-28T00:41:09.980Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: text=Entrar"}
+{"level":30,"time":"2021-09-28T00:41:10.047Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=form span >> text=A senha é obrigatória"}
+{"level":30,"time":"2021-09-28T00:41:10.085Z","pid":19943,"hostname":"pop-os","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
+{"level":30,"time":"2021-09-28T00:41:10.654Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=input[name=email]"}
+{"level":30,"time":"2021-09-28T00:41:10.692Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=input[name=password]"}
+{"level":30,"time":"2021-09-28T00:41:10.717Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: text=Entrar"}
+{"level":30,"time":"2021-09-28T00:41:10.775Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=form span >> text=O e-mail é obrigatório"}
+{"level":30,"time":"2021-09-28T00:41:10.799Z","pid":19943,"hostname":"pop-os","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
+{"level":30,"time":"2021-09-28T00:41:11.364Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=input[name=email]"}
+{"level":30,"time":"2021-09-28T00:41:11.399Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=input[name=password]"}
+{"level":30,"time":"2021-09-28T00:41:11.426Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: text=Entrar"}
+{"level":30,"time":"2021-09-28T00:41:11.493Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=form span >> text=A senha é obrigatória"}
+{"level":30,"time":"2021-09-28T00:41:11.516Z","pid":19943,"hostname":"pop-os","msg":"Page|Frame|Element resolved elementSelector: css=form span >> text=O e-mail é obrigatório"}
+{"level":30,"time":"2021-09-28T00:41:11.544Z","pid":19943,"hostname":"pop-os","msg":"On executeJavascript, supress ReferenceError: window is not defined for eval."}
+{"level":30,"time":"2021-09-28T00:41:11.566Z","pid":19943,"hostname":"pop-os","msg":"Changed active context"}
+{"level":30,"time":"2021-09-28T00:41:11.566Z","pid":19943,"hostname":"pop-os","msg":"Changing current active page"}
+{"level":30,"time":"2021-09-28T00:41:11.567Z","pid":19943,"hostname":"pop-os","msg":"Changed active page"}
+{"level":30,"time":"2021-09-28T00:41:11.592Z","pid":19943,"hostname":"pop-os","msg":"Changed active context"}
+{"level":30,"time":"2021-09-28T00:41:11.592Z","pid":19943,"hostname":"pop-os","msg":"Changing current active page"}
+{"level":30,"time":"2021-09-28T00:41:11.592Z","pid":19943,"hostname":"pop-os","msg":"Changed active page"}
