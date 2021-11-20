@@ -1,4 +1,4 @@
-import psycopg3
+import psycopg2
 
 class DeloreanLibrary():
 
@@ -7,7 +7,7 @@ class DeloreanLibrary():
 
         query = "delete from students where email = '{}'".format(email)
 
-        conn = psycopg3.connect(
+        conn = psycopg2.connect(
             host='ec2-18-209-153-180.compute-1.amazonaws.com', 
             database='da55naurer6de6',
             user='wvxegdesuajiof',
