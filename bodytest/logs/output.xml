@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.2 (Python 3.9.8 on darwin)" generated="20211119 21:55:26.386" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.2 (Python 3.9.8 on darwin)" generated="20211119 22:04:26.485" rpa="false" schemaversion="2">
 <suite id="s1" name="Cadastro Alunos" source="/Users/carlosvinicius/RobotFramework/bodytest/tests/cadastro_alunos.robot">
 <kw name="Start Admin Session" library="base" type="SETUP">
 <kw name="Start Browser Session" library="base">
 <kw name="New Browser">
 <arg>chromium</arg>
 <arg>False</arg>
-<msg timestamp="20211119 21:55:26.402" level="FAIL">No keyword with name 'New Browser' found.</msg>
-<status status="FAIL" starttime="20211119 21:55:26.402" endtime="20211119 21:55:26.402"/>
+<msg timestamp="20211119 22:04:26.500" level="FAIL">No keyword with name 'New Browser' found.</msg>
+<status status="FAIL" starttime="20211119 22:04:26.500" endtime="20211119 22:04:26.500"/>
 </kw>
 <kw name="New Page">
 <arg>about:blank</arg>
-<status status="NOT RUN" starttime="20211119 21:55:26.403" endtime="20211119 21:55:26.404"/>
+<status status="NOT RUN" starttime="20211119 22:04:26.502" endtime="20211119 22:04:26.502"/>
 </kw>
-<status status="FAIL" starttime="20211119 21:55:26.401" endtime="20211119 21:55:26.404"/>
+<status status="FAIL" starttime="20211119 22:04:26.499" endtime="20211119 22:04:26.502"/>
 </kw>
 <kw name="Go To Login Page" library="auth">
-<status status="NOT RUN" starttime="20211119 21:55:26.404" endtime="20211119 21:55:26.404"/>
+<status status="NOT RUN" starttime="20211119 22:04:26.502" endtime="20211119 22:04:26.502"/>
 </kw>
 <kw name="Login With" library="auth">
 <arg>admin@bodytest.com</arg>
 <arg>pwd123</arg>
-<status status="NOT RUN" starttime="20211119 21:55:26.404" endtime="20211119 21:55:26.404"/>
+<status status="NOT RUN" starttime="20211119 22:04:26.502" endtime="20211119 22:04:26.502"/>
 </kw>
 <kw name="User Should Be Logged In" library="nav">
 <arg>Administrador</arg>
-<status status="NOT RUN" starttime="20211119 21:55:26.404" endtime="20211119 21:55:26.404"/>
+<status status="NOT RUN" starttime="20211119 22:04:26.502" endtime="20211119 22:04:26.502"/>
 </kw>
-<status status="FAIL" starttime="20211119 21:55:26.401" endtime="20211119 21:55:26.404"/>
+<status status="FAIL" starttime="20211119 22:04:26.499" endtime="20211119 22:04:26.502"/>
 </kw>
 <test id="s1-t1" name="Novo aluno">
-<status status="FAIL" starttime="20211119 21:55:26.404" endtime="20211119 21:55:26.404">Parent suite setup failed:
+<status status="FAIL" starttime="20211119 22:04:26.502" endtime="20211119 22:04:26.502">Parent suite setup failed:
 No keyword with name 'New Browser' found.</status>
 </test>
 <doc>Cadastro de Alunos</doc>
-<status status="FAIL" starttime="20211119 21:55:26.387" endtime="20211119 21:55:26.405">Suite setup failed:
+<status status="FAIL" starttime="20211119 22:04:26.485" endtime="20211119 22:04:26.503">Suite setup failed:
 No keyword with name 'New Browser' found.</status>
 </suite>
 <statistics>
@@ -48,7 +48,7 @@ No keyword with name 'New Browser' found.</status>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20211119 21:55:26.398" level="ERROR">Error in file '/Users/carlosvinicius/RobotFramework/bodytest/resources/base.robot' on line 4: Importing library 'Browser' failed: ModuleNotFoundError: No module named 'Browser'
+<msg timestamp="20211119 22:04:26.495" level="ERROR">Error in file '/Users/carlosvinicius/RobotFramework/bodytest/resources/base.robot' on line 4: Importing library 'Browser' failed: ModuleNotFoundError: No module named 'Browser'
 Traceback (most recent call last):
   None
 PYTHONPATH:
@@ -57,6 +57,15 @@ PYTHONPATH:
   /opt/homebrew/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/lib/python3.9
   /opt/homebrew/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload
   /opt/homebrew/lib/python3.9/site-packages</msg>
-<msg timestamp="20211119 21:55:26.398" level="ERROR">Error in file '/Users/carlosvinicius/RobotFramework/bodytest/resources/base.robot' on line 5: Test library 'libs/DeloreanLibrary.py' does not exist.</msg>
+<msg timestamp="20211119 22:04:26.496" level="ERROR">Error in file '/Users/carlosvinicius/RobotFramework/bodytest/resources/base.robot' on line 5: Importing library '/Users/carlosvinicius/RobotFramework/bodytest/resources/actions/libs/DeloreanLibrary.py' failed: ModuleNotFoundError: No module named 'psycopg3'
+Traceback (most recent call last):
+  File "/Users/carlosvinicius/RobotFramework/bodytest/resources/actions/libs/DeloreanLibrary.py", line 1, in &lt;module&gt;
+    import psycopg3
+PYTHONPATH:
+  /opt/homebrew/bin
+  /opt/homebrew/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/lib/python39.zip
+  /opt/homebrew/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/lib/python3.9
+  /opt/homebrew/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload
+  /opt/homebrew/lib/python3.9/site-packages</msg>
 </errors>
 </robot>
