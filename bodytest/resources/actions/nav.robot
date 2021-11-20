@@ -1,7 +1,12 @@
 ***Settings***
-Documentation       Ações do menu superior de navegador
+Documentation       Ações do menu superior de navegações
 
 ***Keywords***
+Go To Students
+    Click                           css=a[href$=alunos]
+    Wait For Elements State         css=h1 >> text=Gestão de Alunos     visible     5
+
+
 User Should Be Logged In
     [Arguments]     ${user_name}
 

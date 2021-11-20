@@ -1,230 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.1 (Python 3.9.5 on linux)" generated="20211009 14:35:57.048" rpa="false" schemaversion="2">
-<suite id="s1" name="Cadastro Alunos" source="/home/carlins/RobotExpert/bodytest/tests/cadastro_alunos.robot">
+<robot generator="Robot 4.1.2 (Python 3.9.8 on darwin)" generated="20211119 21:55:26.386" rpa="false" schemaversion="2">
+<suite id="s1" name="Cadastro Alunos" source="/Users/carlosvinicius/RobotFramework/bodytest/tests/cadastro_alunos.robot">
 <kw name="Start Admin Session" library="base" type="SETUP">
 <kw name="Start Browser Session" library="base">
-<kw name="New Browser" library="Browser">
+<kw name="New Browser">
 <arg>chromium</arg>
 <arg>False</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Create a new playwright Browser with specified options.</doc>
-<msg timestamp="20211009 14:35:57.774" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0, "tracesDir": "/home/carlins/RobotExpert/bodytest/logs/browser/traces/8dc6f3bb-22d4-47a6-ae3a-703b73de3f13"}</msg>
-<msg timestamp="20211009 14:35:58.179" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0,"tracesDir":"/home/carlins/RobotExpert/bodytest/logs/browser/traces/8dc6f3bb-22d4-47a6-ae3a-703b73de3f13"}</msg>
-<status status="PASS" starttime="20211009 14:35:57.773" endtime="20211009 14:35:58.179"/>
+<msg timestamp="20211119 21:55:26.402" level="FAIL">No keyword with name 'New Browser' found.</msg>
+<status status="FAIL" starttime="20211119 21:55:26.402" endtime="20211119 21:55:26.402"/>
 </kw>
-<kw name="New Page" library="Browser">
+<kw name="New Page">
 <arg>about:blank</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Open a new Page. A Page is the Playwright equivalent to a tab.
-See `Browser, Context and Page` for more information about Page concept.
-Returns a stable identifier for the created page.</doc>
-<msg timestamp="20211009 14:35:58.773" level="INFO">Successfully initialized new page object and opened url: about:blank</msg>
-<msg timestamp="20211009 14:35:58.773" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
-<status status="PASS" starttime="20211009 14:35:58.179" endtime="20211009 14:35:58.773"/>
+<status status="NOT RUN" starttime="20211119 21:55:26.403" endtime="20211119 21:55:26.404"/>
 </kw>
-<status status="PASS" starttime="20211009 14:35:57.773" endtime="20211009 14:35:58.774"/>
+<status status="FAIL" starttime="20211119 21:55:26.401" endtime="20211119 21:55:26.404"/>
 </kw>
 <kw name="Go To Login Page" library="auth">
-<kw name="Go To" library="Browser">
-<arg>https://bodytest-web-carlos.herokuapp.com/</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Navigates to the given ``url``.</doc>
-<msg timestamp="20211009 14:36:02.368" level="INFO">Successfully opened URL https://bodytest-web-carlos.herokuapp.com/</msg>
-<status status="PASS" starttime="20211009 14:35:58.774" endtime="20211009 14:36:02.368"/>
-</kw>
-<status status="PASS" starttime="20211009 14:35:58.774" endtime="20211009 14:36:02.368"/>
+<status status="NOT RUN" starttime="20211119 21:55:26.404" endtime="20211119 21:55:26.404"/>
 </kw>
 <kw name="Login With" library="auth">
 <arg>admin@bodytest.com</arg>
 <arg>pwd123</arg>
-<kw name="Fill Text" library="Browser">
-<arg>css=input[name=email]</arg>
-<arg>${email}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20211009 14:36:02.369" level="INFO">Fills the text 'admin@bodytest.com' in the given field.</msg>
-<status status="PASS" starttime="20211009 14:36:02.369" endtime="20211009 14:36:02.465"/>
-</kw>
-<kw name="Fill Text" library="Browser">
-<arg>css=input[name=password]</arg>
-<arg>${pass}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20211009 14:36:02.465" level="INFO">Fills the text 'pwd123' in the given field.</msg>
-<status status="PASS" starttime="20211009 14:36:02.465" endtime="20211009 14:36:02.509"/>
-</kw>
-<kw name="Click" library="Browser">
-<arg>text=Entrar</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20211009 14:36:02.509" endtime="20211009 14:36:02.582"/>
-</kw>
-<status status="PASS" starttime="20211009 14:36:02.368" endtime="20211009 14:36:02.582"/>
+<status status="NOT RUN" starttime="20211119 21:55:26.404" endtime="20211119 21:55:26.404"/>
 </kw>
 <kw name="User Should Be Logged In" library="nav">
 <arg>Administrador</arg>
-<kw name="Get Text" library="Browser">
-<arg>css=aside strong</arg>
-<arg>should be</arg>
-<arg>${user_name}</arg>
-<tag>Assertion</tag>
-<tag>Getter</tag>
-<tag>PageContent</tag>
-<doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" starttime="20211009 14:36:02.582" endtime="20211009 14:36:03.499"/>
+<status status="NOT RUN" starttime="20211119 21:55:26.404" endtime="20211119 21:55:26.404"/>
 </kw>
-<status status="PASS" starttime="20211009 14:36:02.582" endtime="20211009 14:36:03.499"/>
-</kw>
-<status status="PASS" starttime="20211009 14:35:57.773" endtime="20211009 14:36:03.499"/>
+<status status="FAIL" starttime="20211119 21:55:26.401" endtime="20211119 21:55:26.404"/>
 </kw>
 <test id="s1-t1" name="Novo aluno">
-<kw name="Go To Students" library="students">
-<kw name="Click" library="Browser">
-<arg>css=a[href$=alunos]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20211009 14:36:03.506" endtime="20211009 14:36:03.604"/>
-</kw>
-<kw name="Wait For Elements State" library="Browser">
-<arg>css=h1 &gt;&gt; text=Gestão de Alunos</arg>
-<arg>visible</arg>
-<arg>5</arg>
-<tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<msg timestamp="20211009 14:36:03.638" level="INFO">Wait for Element with selector: css=h1 &gt;&gt; text=Gestão de Alunos</msg>
-<status status="PASS" starttime="20211009 14:36:03.604" endtime="20211009 14:36:03.638"/>
-</kw>
-<status status="PASS" starttime="20211009 14:36:03.505" endtime="20211009 14:36:03.638"/>
-</kw>
-<kw name="Go To Form Student" library="students">
-<kw name="Click" library="Browser">
-<arg>css=a[href$="alunos/new"]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20211009 14:36:03.638" endtime="20211009 14:36:03.767"/>
-</kw>
-<kw name="Wait For Elements State" library="Browser">
-<arg>css=h1 &gt;&gt; text=Novo aluno</arg>
-<arg>visible</arg>
-<arg>5</arg>
-<tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<msg timestamp="20211009 14:36:03.788" level="INFO">Wait for Element with selector: css=h1 &gt;&gt; text=Novo aluno</msg>
-<status status="PASS" starttime="20211009 14:36:03.767" endtime="20211009 14:36:03.788"/>
-</kw>
-<status status="PASS" starttime="20211009 14:36:03.638" endtime="20211009 14:36:03.789"/>
-</kw>
-<kw name="New Student" library="students">
-<arg>Carlo</arg>
-<arg>carlos@teste.com.br</arg>
-<arg>19</arg>
-<arg>85</arg>
-<arg>1.85</arg>
-<kw name="Fill Text" library="Browser">
-<arg>css=input[name=name]</arg>
-<arg>${name}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20211009 14:36:03.789" level="INFO">Fills the text 'Carlo' in the given field.</msg>
-<status status="PASS" starttime="20211009 14:36:03.789" endtime="20211009 14:36:03.831"/>
-</kw>
-<kw name="Fill Text" library="Browser">
-<arg>css=input[name=email]</arg>
-<arg>${email}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20211009 14:36:03.832" level="INFO">Fills the text 'carlos@teste.com.br' in the given field.</msg>
-<status status="PASS" starttime="20211009 14:36:03.831" endtime="20211009 14:36:03.867"/>
-</kw>
-<kw name="Fill Text" library="Browser">
-<arg>css=input[name=age]</arg>
-<arg>${age}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20211009 14:36:03.868" level="INFO">Fills the text '19' in the given field.</msg>
-<status status="PASS" starttime="20211009 14:36:03.868" endtime="20211009 14:36:03.906"/>
-</kw>
-<kw name="Fill Text" library="Browser">
-<arg>css=input[name=weight]</arg>
-<arg>${weight}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20211009 14:36:03.906" level="INFO">Fills the text '85' in the given field.</msg>
-<status status="PASS" starttime="20211009 14:36:03.906" endtime="20211009 14:36:03.952"/>
-</kw>
-<kw name="Fill Text" library="Browser">
-<arg>css=input[name=feet_tall]</arg>
-<arg>${feet_tall}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20211009 14:36:03.952" level="INFO">Fills the text '1.85' in the given field.</msg>
-<status status="PASS" starttime="20211009 14:36:03.952" endtime="20211009 14:36:03.987"/>
-</kw>
-<kw name="Click" library="Browser">
-<arg>xpath=//button[contains(text(), "Salvar")]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20211009 14:36:03.988" endtime="20211009 14:36:04.053"/>
-</kw>
-<status status="PASS" starttime="20211009 14:36:03.789" endtime="20211009 14:36:04.053"/>
-</kw>
-<kw name="Toaster Text Should Be" library="auth">
-<arg>Aluno cadastrado com sucesso.</arg>
-<kw name="Wait For Elements State" library="Browser">
-<arg>css=.Toastify__toast-body &gt;&gt; text=${expect_text}</arg>
-<arg>visible</arg>
-<arg>5</arg>
-<tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<msg timestamp="20211009 14:36:09.065" level="WARN">Keyword 'Take Screenshot' could not be run on failure:
-Error: page.screenshot: Target page, context or browser has been closed</msg>
-<msg timestamp="20211009 14:36:09.070" level="FAIL">Error: page.$: Target closed</msg>
-<status status="FAIL" starttime="20211009 14:36:04.054" endtime="20211009 14:36:09.070"/>
-</kw>
-<status status="FAIL" starttime="20211009 14:36:04.053" endtime="20211009 14:36:09.071"/>
-</kw>
-<kw name="Thinking And Take Screenshot" library="base" type="TEARDOWN">
-<arg>2</arg>
-<kw name="Sleep" library="BuiltIn">
-<arg>${timeout}</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20211009 14:36:11.072" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20211009 14:36:09.072" endtime="20211009 14:36:11.072"/>
-</kw>
-<kw name="Take Screenshot" library="Browser">
-<tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<msg timestamp="20211009 14:36:11.078" level="WARN">Keyword 'Take Screenshot' could not be run on failure:
-Error: page.screenshot: Target page, context or browser has been closed</msg>
-<msg timestamp="20211009 14:36:11.080" level="FAIL">Error: page.screenshot: Target page, context or browser has been closed</msg>
-<status status="FAIL" starttime="20211009 14:36:11.073" endtime="20211009 14:36:11.080"/>
-</kw>
-<status status="FAIL" starttime="20211009 14:36:09.071" endtime="20211009 14:36:11.080">Error: page.screenshot: Target page, context or browser has been closed</status>
-</kw>
-<status status="FAIL" starttime="20211009 14:36:03.499" endtime="20211009 14:36:11.081">Error: page.$: Target closed
-
-Also teardown failed:
-Error: page.screenshot: Target page, context or browser has been closed</status>
+<status status="FAIL" starttime="20211119 21:55:26.404" endtime="20211119 21:55:26.404">Parent suite setup failed:
+No keyword with name 'New Browser' found.</status>
 </test>
 <doc>Cadastro de Alunos</doc>
-<status status="FAIL" starttime="20211009 14:35:57.049" endtime="20211009 14:36:11.085"/>
+<status status="FAIL" starttime="20211119 21:55:26.387" endtime="20211119 21:55:26.405">Suite setup failed:
+No keyword with name 'New Browser' found.</status>
 </suite>
 <statistics>
 <total>
@@ -237,9 +48,15 @@ Error: page.screenshot: Target page, context or browser has been closed</status>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20211009 14:36:09.065" level="WARN">Keyword 'Take Screenshot' could not be run on failure:
-Error: page.screenshot: Target page, context or browser has been closed</msg>
-<msg timestamp="20211009 14:36:11.078" level="WARN">Keyword 'Take Screenshot' could not be run on failure:
-Error: page.screenshot: Target page, context or browser has been closed</msg>
+<msg timestamp="20211119 21:55:26.398" level="ERROR">Error in file '/Users/carlosvinicius/RobotFramework/bodytest/resources/base.robot' on line 4: Importing library 'Browser' failed: ModuleNotFoundError: No module named 'Browser'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /opt/homebrew/bin
+  /opt/homebrew/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/lib/python39.zip
+  /opt/homebrew/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/lib/python3.9
+  /opt/homebrew/Cellar/python@3.9/3.9.8/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload
+  /opt/homebrew/lib/python3.9/site-packages</msg>
+<msg timestamp="20211119 21:55:26.398" level="ERROR">Error in file '/Users/carlosvinicius/RobotFramework/bodytest/resources/base.robot' on line 5: Test library 'libs/DeloreanLibrary.py' does not exist.</msg>
 </errors>
 </robot>

@@ -7,6 +7,7 @@ Suite Setup         Start Admin Session
 
 ***Test Cases***
 Novo aluno
+    Remove Student                  carlos@test.com
     Go To Students
     Go To Form Student
     New Student                     Carlo  carlos@teste.com.br  19  85  1.85
