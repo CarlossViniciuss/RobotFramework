@@ -1,27 +1,38 @@
-{"level":30,"time":"2021-11-20T22:14:06.360Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Listening on 52314"}
-{"level":30,"time":"2021-11-20T22:14:06.969Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-11-20T22:14:06.996Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active context"}
-{"level":30,"time":"2021-11-20T22:14:07.502Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Video path: undefined"}
-{"level":30,"time":"2021-11-20T22:14:07.502Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active page"}
-{"level":30,"time":"2021-11-20T22:14:10.294Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2021-11-20T22:14:10.324Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
-{"level":30,"time":"2021-11-20T22:14:10.339Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with text=Entrar in page."}
-{"level":30,"time":"2021-11-20T22:14:10.391Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
-{"level":30,"time":"2021-11-20T22:14:11.460Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Retrieved text for element css=aside strong containing Administrador"}
-{"level":30,"time":"2021-11-20T22:14:12.948Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=a[href$=alunos] in page."}
-{"level":30,"time":"2021-11-20T22:14:13.010Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2021-11-20T22:14:13.016Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=a[href$=\"alunos/new\"] in page."}
-{"level":30,"time":"2021-11-20T22:14:13.063Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Novo aluno in page."}
-{"level":30,"time":"2021-11-20T22:14:13.067Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
-{"level":30,"time":"2021-11-20T22:14:13.080Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2021-11-20T22:14:13.085Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=age] in page."}
-{"level":30,"time":"2021-11-20T22:14:13.091Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=weight] in page."}
-{"level":30,"time":"2021-11-20T22:14:13.098Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=feet_tall] in page."}
-{"level":30,"time":"2021-11-20T22:14:13.103Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with xpath=//button[contains(text(), \"Salvar\")] in page."}
-{"level":30,"time":"2021-11-20T22:14:13.132Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Aluno cadastrado com sucesso. in page."}
-{"level":30,"time":"2021-11-20T22:14:15.652Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active context"}
-{"level":30,"time":"2021-11-20T22:14:15.652Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changing current active page"}
-{"level":30,"time":"2021-11-20T22:14:15.652Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active page"}
-{"level":30,"time":"2021-11-20T22:14:15.659Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active context"}
-{"level":30,"time":"2021-11-20T22:14:15.659Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changing current active page"}
-{"level":30,"time":"2021-11-20T22:14:15.659Z","pid":33528,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active page"}
+{"level":30,"time":"2021-11-21T12:16:30.821Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Listening on 53798"}
+{"level":30,"time":"2021-11-21T12:16:31.480Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-11-21T12:16:31.491Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active context"}
+{"level":30,"time":"2021-11-21T12:16:31.953Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Video path: undefined"}
+{"level":30,"time":"2021-11-21T12:16:31.953Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active page"}
+{"level":30,"time":"2021-11-21T12:16:41.792Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2021-11-21T12:16:41.823Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
+{"level":30,"time":"2021-11-21T12:16:41.841Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with text=Entrar in page."}
+{"level":30,"time":"2021-11-21T12:16:41.893Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":30,"time":"2021-11-21T12:16:51.052Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Retrieved text for element css=aside strong containing Administrador"}
+{"level":30,"time":"2021-11-21T12:16:52.641Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=a[href$=alunos] in page."}
+{"level":30,"time":"2021-11-21T12:16:52.684Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Gestão de Alunos in page."}
+{"level":30,"time":"2021-11-21T12:16:52.690Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=a[href$=\"alunos/new\"] in page."}
+{"level":30,"time":"2021-11-21T12:16:52.743Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Novo aluno in page."}
+{"level":30,"time":"2021-11-21T12:16:52.748Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2021-11-21T12:16:52.760Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2021-11-21T12:16:52.766Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=age] in page."}
+{"level":30,"time":"2021-11-21T12:16:52.772Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=weight] in page."}
+{"level":30,"time":"2021-11-21T12:16:52.779Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=feet_tall] in page."}
+{"level":30,"time":"2021-11-21T12:16:52.786Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with xpath=//button[contains(text(), \"Salvar\")] in page."}
+{"level":30,"time":"2021-11-21T12:16:52.834Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Aluno cadastrado com sucesso. in page."}
+{"level":30,"time":"2021-11-21T12:16:58.554Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=a[href$=alunos] in page."}
+{"level":30,"time":"2021-11-21T12:16:58.589Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Gestão de Alunos in page."}
+{"level":30,"time":"2021-11-21T12:16:58.597Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=a[href$=\"alunos/new\"] in page."}
+{"level":30,"time":"2021-11-21T12:16:58.644Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Novo aluno in page."}
+{"level":30,"time":"2021-11-21T12:16:58.649Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2021-11-21T12:16:58.663Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2021-11-21T12:16:58.670Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=age] in page."}
+{"level":30,"time":"2021-11-21T12:16:58.678Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=weight] in page."}
+{"level":30,"time":"2021-11-21T12:16:58.684Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=feet_tall] in page."}
+{"level":30,"time":"2021-11-21T12:16:58.689Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with xpath=//button[contains(text(), \"Salvar\")] in page."}
+{"level":30,"time":"2021-11-21T12:16:58.732Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Email já existe no sistema. in page."}
+{"level":30,"time":"2021-11-21T12:17:01.204Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active context"}
+{"level":30,"time":"2021-11-21T12:17:01.204Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changing current active page"}
+{"level":30,"time":"2021-11-21T12:17:01.204Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active page"}
+{"level":30,"time":"2021-11-21T12:17:01.209Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active context"}
+{"level":30,"time":"2021-11-21T12:17:01.209Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changing current active page"}
+{"level":30,"time":"2021-11-21T12:17:01.209Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active page"}
