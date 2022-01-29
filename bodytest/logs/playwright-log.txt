@@ -1,38 +1,38 @@
-{"level":30,"time":"2021-11-21T12:16:30.821Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Listening on 53798"}
-{"level":30,"time":"2021-11-21T12:16:31.480Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-11-21T12:16:31.491Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active context"}
-{"level":30,"time":"2021-11-21T12:16:31.953Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Video path: undefined"}
-{"level":30,"time":"2021-11-21T12:16:31.953Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active page"}
-{"level":30,"time":"2021-11-21T12:16:41.792Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2021-11-21T12:16:41.823Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
-{"level":30,"time":"2021-11-21T12:16:41.841Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with text=Entrar in page."}
-{"level":30,"time":"2021-11-21T12:16:41.893Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
-{"level":30,"time":"2021-11-21T12:16:51.052Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Retrieved text for element css=aside strong containing Administrador"}
-{"level":30,"time":"2021-11-21T12:16:52.641Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=a[href$=alunos] in page."}
-{"level":30,"time":"2021-11-21T12:16:52.684Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2021-11-21T12:16:52.690Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=a[href$=\"alunos/new\"] in page."}
-{"level":30,"time":"2021-11-21T12:16:52.743Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Novo aluno in page."}
-{"level":30,"time":"2021-11-21T12:16:52.748Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
-{"level":30,"time":"2021-11-21T12:16:52.760Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2021-11-21T12:16:52.766Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=age] in page."}
-{"level":30,"time":"2021-11-21T12:16:52.772Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=weight] in page."}
-{"level":30,"time":"2021-11-21T12:16:52.779Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=feet_tall] in page."}
-{"level":30,"time":"2021-11-21T12:16:52.786Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with xpath=//button[contains(text(), \"Salvar\")] in page."}
-{"level":30,"time":"2021-11-21T12:16:52.834Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Aluno cadastrado com sucesso. in page."}
-{"level":30,"time":"2021-11-21T12:16:58.554Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=a[href$=alunos] in page."}
-{"level":30,"time":"2021-11-21T12:16:58.589Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Gestão de Alunos in page."}
-{"level":30,"time":"2021-11-21T12:16:58.597Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=a[href$=\"alunos/new\"] in page."}
-{"level":30,"time":"2021-11-21T12:16:58.644Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Novo aluno in page."}
-{"level":30,"time":"2021-11-21T12:16:58.649Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
-{"level":30,"time":"2021-11-21T12:16:58.663Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2021-11-21T12:16:58.670Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=age] in page."}
-{"level":30,"time":"2021-11-21T12:16:58.678Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=weight] in page."}
-{"level":30,"time":"2021-11-21T12:16:58.684Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=input[name=feet_tall] in page."}
-{"level":30,"time":"2021-11-21T12:16:58.689Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with xpath=//button[contains(text(), \"Salvar\")] in page."}
-{"level":30,"time":"2021-11-21T12:16:58.732Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Email já existe no sistema. in page."}
-{"level":30,"time":"2021-11-21T12:17:01.204Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active context"}
-{"level":30,"time":"2021-11-21T12:17:01.204Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changing current active page"}
-{"level":30,"time":"2021-11-21T12:17:01.204Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active page"}
-{"level":30,"time":"2021-11-21T12:17:01.209Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active context"}
-{"level":30,"time":"2021-11-21T12:17:01.209Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changing current active page"}
-{"level":30,"time":"2021-11-21T12:17:01.209Z","pid":36177,"hostname":"MacBook-Air-de-Carlos.local","msg":"Changed active page"}
+{"level":30,"time":"2021-11-22T12:55:32.979Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Listening on 49981"}
+{"level":30,"time":"2021-11-22T12:55:33.338Z","pid":2152,"hostname":"Air-de-Carlos","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-11-22T12:55:33.349Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Changed active context"}
+{"level":30,"time":"2021-11-22T12:55:33.708Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Video path: undefined"}
+{"level":30,"time":"2021-11-22T12:55:33.710Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Changed active page"}
+{"level":30,"time":"2021-11-22T12:55:35.809Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2021-11-22T12:55:35.834Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
+{"level":30,"time":"2021-11-22T12:55:35.842Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with text=Entrar in page."}
+{"level":30,"time":"2021-11-22T12:55:35.892Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=aside strong in page."}
+{"level":30,"time":"2021-11-22T12:55:36.712Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Retrieved text for element css=aside strong containing Administrador"}
+{"level":30,"time":"2021-11-22T12:55:38.260Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=a[href$=alunos] in page."}
+{"level":30,"time":"2021-11-22T12:55:38.311Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Gestão de Alunos in page."}
+{"level":30,"time":"2021-11-22T12:55:38.317Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=a[href$=\"alunos/new\"] in page."}
+{"level":30,"time":"2021-11-22T12:55:38.363Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Novo aluno in page."}
+{"level":30,"time":"2021-11-22T12:55:38.368Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2021-11-22T12:55:38.381Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2021-11-22T12:55:38.386Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=input[name=age] in page."}
+{"level":30,"time":"2021-11-22T12:55:38.393Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=input[name=weight] in page."}
+{"level":30,"time":"2021-11-22T12:55:38.400Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=input[name=feet_tall] in page."}
+{"level":30,"time":"2021-11-22T12:55:38.406Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with xpath=//button[contains(text(), \"Salvar\")] in page."}
+{"level":30,"time":"2021-11-22T12:55:38.436Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Aluno cadastrado com sucesso. in page."}
+{"level":30,"time":"2021-11-22T12:55:44.192Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=a[href$=alunos] in page."}
+{"level":30,"time":"2021-11-22T12:55:44.229Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Gestão de Alunos in page."}
+{"level":30,"time":"2021-11-22T12:55:44.251Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=a[href$=\"alunos/new\"] in page."}
+{"level":30,"time":"2021-11-22T12:55:44.275Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=h1 >> text=Novo aluno in page."}
+{"level":30,"time":"2021-11-22T12:55:44.281Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2021-11-22T12:55:44.291Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2021-11-22T12:55:44.301Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=input[name=age] in page."}
+{"level":30,"time":"2021-11-22T12:55:44.307Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=input[name=weight] in page."}
+{"level":30,"time":"2021-11-22T12:55:44.315Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=input[name=feet_tall] in page."}
+{"level":30,"time":"2021-11-22T12:55:44.321Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with xpath=//button[contains(text(), \"Salvar\")] in page."}
+{"level":30,"time":"2021-11-22T12:55:44.351Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Strict mode is enabled, find Locator with css=.Toastify__toast-body >> text=Email já existe no sistema. in page."}
+{"level":30,"time":"2021-11-22T12:55:46.790Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Changed active context"}
+{"level":30,"time":"2021-11-22T12:55:46.791Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Changing current active page"}
+{"level":30,"time":"2021-11-22T12:55:46.791Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Changed active page"}
+{"level":30,"time":"2021-11-22T12:55:46.797Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Changed active context"}
+{"level":30,"time":"2021-11-22T12:55:46.797Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Changing current active page"}
+{"level":30,"time":"2021-11-22T12:55:46.797Z","pid":2152,"hostname":"Air-de-Carlos","msg":"Changed active page"}
